@@ -2,22 +2,22 @@
 // принимает два числа и выдаёт, какое число большее, а
 // какое меньшее.
 
-// Console.Write("Введите первое число: ");
-// int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите первое число: ");
+int a = Convert.ToInt32(Console.ReadLine());
 
-// Console.Write("Введите второе число: ");
-// int b = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int b = Convert.ToInt32(Console.ReadLine());
 
-// if (a != b)
-// {
-//     if (a > b)
-//     {
-//         Console.WriteLine("число " + a + " больше числа " + b);
-//     }
-//     else Console.WriteLine("число " + b + " больше числа " + a);
+if (a != b)
+{
+    if (a > b)
+    {
+        Console.WriteLine("число " + a + " больше числа " + b);
+    }
+    else Console.WriteLine("число " + a + " меньше числа " + b);
 
-// }
-// else Console.WriteLine("числа не должны быть одинаковыми");
+}
+else Console.WriteLine("числа не должны быть одинаковыми");
 
 // Задача 4: Напишите программу, которая принимает на
 // вход три числа и выдаёт максимальное из этих чисел.
@@ -56,16 +56,16 @@
 // принимает число (N), а на выходе показывает все чётные
 // числа от 1 до N.
 
-Console.Write("Введите число: ");
-int n = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите число: ");
+// int n = Convert.ToInt32(Console.ReadLine());
 
-int i = 1; //задаю начало счетчика, чтобы не было 0
+// int i = 1; //задаю начало счетчика, чтобы не было 0
 
-while (i <= n)
-{
-    if (i % 2 == 0)
-    {
-        Console.Write(i + " ");
-    }
-    i++;
-}
+// while (i <= n)
+// {
+//     if (i % 2 == 0)
+//     {
+//         Console.Write(i + " ");
+//     }
+//     i++;
+// }
