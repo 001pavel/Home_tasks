@@ -43,11 +43,29 @@
 // принимает число и выдаёт, является ли число чётным
 // (делится ли оно на два без остатка).
 
-Console.Write("Введите число: ");
-int a = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите число: ");
+// int a = Convert.ToInt32(Console.ReadLine());
 
-if (a % 2 == 0)
+// if (a % 2 == 0)
+// {
+//     Console.WriteLine("Введенное число " + a + " является чётным");
+// }
+// else Console.WriteLine("Введенное число " + a + " является нечётным");
+
+// Задача 8: Напишите программу, которая на вход
+// принимает число (N), а на выходе показывает все чётные
+// числа от 1 до N.
+
+Console.Write("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+int i = 1; //задаю начало счетчика, чтобы не было 0
+
+while (i <= n)
 {
-    Console.WriteLine("Введенное число " + a + " является чётным");
+    if (i % 2 == 0)
+    {
+        Console.Write(i + " ");
+    }
+    i++;
 }
-else Console.WriteLine("Введенное число " + a + " является нечётным");
