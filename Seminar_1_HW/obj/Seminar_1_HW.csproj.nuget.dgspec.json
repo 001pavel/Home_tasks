@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pavel\\Documents\\ExamplesC#\\Home_tasks_C#\\Seminar_1_HW\\Seminar_1_HW.csproj": {}
+    "C:\\Users\\Pavel\\Documents\\GeekBrains\\Home_tasks_C#\\Seminar_1_HW\\Seminar_1_HW.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pavel\\Documents\\ExamplesC#\\Home_tasks_C#\\Seminar_1_HW\\Seminar_1_HW.csproj": {
+    "C:\\Users\\Pavel\\Documents\\GeekBrains\\Home_tasks_C#\\Seminar_1_HW\\Seminar_1_HW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pavel\\Documents\\ExamplesC#\\Home_tasks_C#\\Seminar_1_HW\\Seminar_1_HW.csproj",
+        "projectUniqueName": "C:\\Users\\Pavel\\Documents\\GeekBrains\\Home_tasks_C#\\Seminar_1_HW\\Seminar_1_HW.csproj",
         "projectName": "Seminar_1_HW",
-        "projectPath": "C:\\Users\\Pavel\\Documents\\ExamplesC#\\Home_tasks_C#\\Seminar_1_HW\\Seminar_1_HW.csproj",
+        "projectPath": "C:\\Users\\Pavel\\Documents\\GeekBrains\\Home_tasks_C#\\Seminar_1_HW\\Seminar_1_HW.csproj",
         "packagesPath": "C:\\Users\\Pavel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pavel\\Documents\\ExamplesC#\\Home_tasks_C#\\Seminar_1_HW\\obj\\",
+        "outputPath": "C:\\Users\\Pavel\\Documents\\GeekBrains\\Home_tasks_C#\\Seminar_1_HW\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pavel\\AppData\\Roaming\\NuGet\\NuGet.Config"
