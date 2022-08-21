@@ -48,14 +48,10 @@
 // Задача 10 нужно решить через ЦЕЛЫЕ ЧИСЛА, без строчек
 // Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
-// 456 -> 5
-// 782 -> 8
-// 918 -> 1
+// Console.Write("Введите трёхзначное число: ");
+// int a = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Введите трёхзначное число: ");
-int a = Convert.ToInt32(Console.ReadLine());
-
-System.Console.WriteLine($"Вторая цифра этого числа: {(a / 10) % 10}");
+// System.Console.WriteLine($"Вторая цифра этого числа: {(a / 10) % 10}");
 
 // 11. Напишите программу, которая выводит случайное 
 // трёхзначное число и удаляет вторую цифру этого числа.
@@ -99,11 +95,25 @@ System.Console.WriteLine($"Вторая цифра этого числа: {(a / 
 // }
 // else System.Console.WriteLine($"остаток {a % b}");
 
+// Второе решение задачи (Преподаватель)
+
 // int secondNumber = Convert.ToInt32(Console.ReadLine());
 
 // if (firstNumber % secondNumber == 0) Console.WriteLine("Кратно");
 
 // else Console.WriteLine($"Не кратно, остаток от деления {firstNumber % secondNumber}");
+
+// Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+
+Console.Write("Введите любое число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number < 0) number = number * (-1);
+string numberStr = number.ToString();
+
+if (numberStr.Length >= 3) Console.WriteLine($"третья цифра введенного числа это - {numberStr[2]}");
+
+else Console.WriteLine("третьей цифры нет");
 
 
 // 14. Напишите программу, которая принимает на вход число и 
